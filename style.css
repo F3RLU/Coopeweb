@@ -1,0 +1,59 @@
+:root{
+    --Primario: #1544a1;
+    --secundario: #3abb1a;
+    --medio: #d4cdc5;
+    --claro:#fff;
+    --oscuro: black;
+}
+.h1{
+    text-align: center;
+    transform: translateY(10px);
+    height: 4rem;
+    margin: -4rem;
+    color: var(--oscuro);
+    font-size: 2rem;
+}
+.logo{
+    height: 5rem;
+    width: 10rem;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    padding: 2px;
+}
+
+/*Fondo body*/
+.fondo{
+    background-image: url(img/logo2.png);
+    position: relative;
+    display: flex;
+    padding: 10px;
+    height: 5rem;
+}
+
+/*Botones*/
+.button_list{
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 50px;
+}
+.button_list {
+    display: grid;
+    grid-template-columns: repeat(7, auto); /* Dos columnas de botones */
+    gap: 17px; /* Espacio entre botones */
+    justify-content: center; /* Centra los botones horizontalmente */
+    margin-top: 50px;
+}
+.navbar-brand {
+    font-family: "Merriweather", serif; /* Cambia 'Roboto' por cualquier fuente de Google Fonts que prefieras */
+}
+.square-button {
+    width: 170px; /* Cambia el tamaño según lo necesites */
+    height: 70px; /* Igual que el ancho para que sea cuadrado */
+    font-size: 20px; /* Tamaño de fuente grande */
+    display:flex;
+    align-items:center; /* Centrar verticalmente */
+    justify-content:center; /* Centrar horizontalmente */
+}
+
